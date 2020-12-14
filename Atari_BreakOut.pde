@@ -7,7 +7,7 @@ public void setup() {
   size(600,600);
   
   for (int i = 0; i < 400; i++) {
-    bricks[i] = new Brick(600,600);
+    bricks[i] = new Brick(600,500);
   }
   for (int i = 0; i < 6; i++) {
         boards[i] = new Board (600,600);
